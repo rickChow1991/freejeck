@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CA9410F-EFA9-FF56-19BD-A22AADE3E3FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneOSXIntel:4</UnityBuildTarget>
+    <UnityVersion>5.0.0f4</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\Plugins\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Nettention.ProudNetClient">
+      <HintPath>Assets\Plugins\Nettention.ProudNetClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.freejeck_client.CSharp.Plugins.csproj">
+      <Project>{19A2DE5C-FF32-B9B3-224A-EF8A2C00D5CF}</Project>
+      <Name>UnityVS.freejeck_client.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\HoverHpBar.cs.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\IThreadWorkerObject.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\Internal\MainThreadDispatcher.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\Internal\MainThreadWatchdog.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\Internal\MultithreadedWorkloadHelper.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\Internal\SingleThreadStarter.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\Internal\ThreadDispatchAction.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\Internal\ThreadPoolSchedulerWorkerObjects.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\Internal\ThreadWaitCommands.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\Loom.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\NewBehaviourScript.cs" />
+    <Compile Include="Assets\LOOM Framework\LOOM\ThreadPoolScheduler.cs" />
+    <Compile Include="Assets\script\UI\GameRoom\DoneCameraMovement.cs" />
+    <Compile Include="Assets\script\UI\GameRoom\GameRoomController.cs" />
+    <Compile Include="Assets\script\UI\GameRoom\MsgCell.cs" />
+    <Compile Include="Assets\script\UI\GameRoom\MsgGrid.cs" />
+    <Compile Include="Assets\script\UI\GameRoom\NameGrid.cs" />
+    <Compile Include="Assets\script\UI\Gradient.cs" />
+    <Compile Include="Assets\script\UI\Hall\ChangeInterface.cs" />
+    <Compile Include="Assets\script\UI\Hall\CreatRoomMsg.cs" />
+    <Compile Include="Assets\script\UI\Hall\IShopTip.cs" />
+    <Compile Include="Assets\script\UI\Hall\Meau.cs" />
+    <Compile Include="Assets\script\UI\Hall\MeauCell.cs" />
+    <Compile Include="Assets\script\UI\Hall\MeauController.cs" />
+    <Compile Include="Assets\script\UI\Hall\PeopelControl.cs" />
+    <Compile Include="Assets\script\UI\Hall\RoomCell.cs" />
+    <Compile Include="Assets\script\UI\Hall\RoomController.cs" />
+    <Compile Include="Assets\script\UI\Hall\RoomGrid.cs" />
+    <Compile Include="Assets\script\UI\Hall\ShopCell.cs" />
+    <Compile Include="Assets\script\UI\Hall\ShopController.cs" />
+    <Compile Include="Assets\script\UI\Hall\ShopGrid.cs" />
+    <Compile Include="Assets\script\UI\Hall\TableCell.cs" />
+    <Compile Include="Assets\script\UI\Hall\UserController.cs" />
+    <Compile Include="Assets\script\UI\Login\LobbyController.cs" />
+    <Compile Include="Assets\script\UI\Login\LoginController.cs" />
+    <Compile Include="Assets\script\UI\common\Table.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\characters\ICharacter.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\characters\IFllowTarget.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\managers\AnimManager.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\managers\NetWorkManager.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\managers\SceneManager.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\managers\SendMsg.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\models\RoomModel.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\models\SceneModel.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\models\ShopModel.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\models\UserModel.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\models\vos\Types.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\raknet\InterfaceFromSever.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\raknet\InterfaceToSever.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\raknet\cmdlib.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\raknet\command.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\raknet\common.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\scenes\SceneLoader.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\services\BaseServices.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\services\GameService.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\services\IProxy.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\services\LobbyService.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\services\LoginService.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\trickesr\BaseTricker.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\trickesr\ITrick.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\trickesr\TrickType.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\utils\Deque.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\utils\Singletons.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\utils\Tools.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\utils\UISpriteRender.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\utils\ViewMask.cs" />
+    <Compile Include="Assets\script\com\iuixi\FreeJeck\utils\WebLog.cs" />
+    <Compile Include="Assets\script\components\ChangeAvatar.cs" />
+    <Compile Include="Assets\script\components\FllowCamera.cs" />
+    <Compile Include="Assets\script\components\MouseRotatController.cs" />
+    <Compile Include="Assets\script\components\MyCharacter.cs" />
+    <Compile Include="Assets\script\components\animstate\AnimStateTrigger.cs" />
+    <Compile Include="Assets\script\components\animstate\JumpState.cs" />
+    <Compile Include="Assets\script\components\animstate\RandomIdle.cs" />
+    <Compile Include="Assets\script\components\table\TableGrid.cs" />
+    <Compile Include="Assets\script\components\trickers\CrossArea.cs" />
+    <Compile Include="Assets\script\components\trickers\Hurdle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Art\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\Resources\settings\ShopItem.xml" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\test.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

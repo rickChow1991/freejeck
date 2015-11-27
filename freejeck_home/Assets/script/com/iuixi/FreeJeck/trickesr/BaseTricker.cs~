@@ -1,0 +1,34 @@
+// ------------------------------------------------------------------------------
+//	This code was edit by Emacs.
+//	author : albin
+//	created at : Thu Apr  9 14:08:05 2015
+//  	Copyright (c) icee.cn
+// ------------------------------------------------------------------------------
+
+using System;
+using System.Collections;
+using UnityEngine;
+
+namespace com.iuixi.main.trickers{
+        /// <summary>
+        /// ClassName:BaseTricker
+        /// Date:Thu Apr  9 14:08:17 2015
+        /// Author: albin
+        /// Description: 机关的基类
+        /// </summary>
+        public class BaseTricker : MonoBehaviour, ITricker {
+                
+                /// <summary>
+                /// Standard Start
+                /// </summary>
+                void Start() {
+                        
+                }
+                
+                /// <summary>
+                /// Standart update
+                void Updtae() {
+                        
+                }
+        }
+}

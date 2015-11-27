@@ -1,0 +1,16 @@
+<People>
+  <peoples>
+    <Test >
+      <name>Albin</name>
+      <age>29</age>
+    </Test>
+    <Test sex="male">
+      <name>Albin</name>
+      <age>29</age>
+    </Test>
+    <Test sex="male">
+      <name>Albin</name>
+      <age>29</age>
+    </Test>
+  </peoples>
+</People>

@@ -1,0 +1,35 @@
+// ------------------------------------------------------------------------------
+//	This code was edit by Emacs.
+//	author : albin
+//	created at : Thu Apr  9 15:29:23 2015
+//  	Copyright (c) icee.cn
+// ------------------------------------------------------------------------------
+
+using System;
+using System.Collections;
+using UnityEngine;
+
+namespace com.iuixi.main{
+    /// <summary>
+    /// ClassName:AnimManager
+    /// Date:Thu Apr  9 15:29:31 2015
+    /// Author: albin
+    /// Description: 动画事件分分器
+    /// </summary>
+    public class AnimManager {
+	
+	/// <summary>
+	/// Standard Start
+	/// </summary>
+	void Start() {
+	    
+	}
+	
+	/// <summary>
+	/// Standart update
+	void Updtae() {
+	    
+	}
+    }
+
+}
