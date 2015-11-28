@@ -108,7 +108,7 @@ namespace com.iuixi.FreeJeck{
 
 			};*/
 			lobbynetwork=Singletons.GET<LobbyNetWork>();
-			lobbynetwork.Connect(1,model .LALA_data.ip,model.LALA_data.port,OnConnected);
+			lobbynetwork.Connect(1,model.LALA_data.ip,model.LALA_data.port,OnConnected);
 
 
 		}

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.freejeck_home.CSharp.Plugins", "UnityVS.freejeck_home.CSharp.Plugins.csproj", "{B163FF58-4741-0288-649D-082D0A690CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.freejeck_home.CSharp", "UnityVS.freejeck_home.CSharp.csproj", "{6BECE0F5-2C43-F736-40EC-A418298DB978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.freejeck_home.CSharp.Editor", "UnityVS.freejeck_home.CSharp.Editor.csproj", "{FF98CB15-B037-DEFB-CFEC-F9BD45390831}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B163FF58-4741-0288-649D-082D0A690CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B163FF58-4741-0288-649D-082D0A690CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B163FF58-4741-0288-649D-082D0A690CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B163FF58-4741-0288-649D-082D0A690CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BECE0F5-2C43-F736-40EC-A418298DB978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BECE0F5-2C43-F736-40EC-A418298DB978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BECE0F5-2C43-F736-40EC-A418298DB978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BECE0F5-2C43-F736-40EC-A418298DB978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF98CB15-B037-DEFB-CFEC-F9BD45390831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF98CB15-B037-DEFB-CFEC-F9BD45390831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF98CB15-B037-DEFB-CFEC-F9BD45390831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF98CB15-B037-DEFB-CFEC-F9BD45390831}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
